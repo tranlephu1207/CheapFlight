@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		752193BB1D38EA880062CE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193BA1D38EA880062CE4A /* AppDelegate.swift */; };
+		752193BD1D38EA880062CE4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193BC1D38EA880062CE4A /* ViewController.swift */; };
+		752193C01D38EA880062CE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752193BE1D38EA880062CE4A /* Main.storyboard */; };
+		752193C31D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 752193C11D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld */; };
+		752193C51D38EA880062CE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752193C41D38EA880062CE4A /* Assets.xcassets */; };
+		752193C81D38EA880062CE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752193C61D38EA880062CE4A /* LaunchScreen.storyboard */; };
+		752193D31D38EA880062CE4A /* FlightTicketTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193D21D38EA880062CE4A /* FlightTicketTrackingTests.swift */; };
+		752193DE1D38EA880062CE4A /* FlightTicketTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193DD1D38EA880062CE4A /* FlightTicketTrackingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		752193CF1D38EA880062CE4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 752193AF1D38EA880062CE4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752193B61D38EA880062CE4A;
+			remoteInfo = FlightTicketTracking;
+		};
+		752193DA1D38EA880062CE4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 752193AF1D38EA880062CE4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752193B61D38EA880062CE4A;
+			remoteInfo = FlightTicketTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		752193B71D38EA880062CE4A /* FlightTicketTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightTicketTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		752193BA1D38EA880062CE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		752193BC1D38EA880062CE4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		752193BF1D38EA880062CE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		752193C21D38EA880062CE4A /* FlightTicketTracking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlightTicketTracking.xcdatamodel; sourceTree = "<group>"; };
+		752193C41D38EA880062CE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		752193C71D38EA880062CE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		752193C91D38EA880062CE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752193CE1D38EA880062CE4A /* FlightTicketTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTicketTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		752193D21D38EA880062CE4A /* FlightTicketTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTicketTrackingTests.swift; sourceTree = "<group>"; };
+		752193D41D38EA880062CE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752193D91D38EA880062CE4A /* FlightTicketTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTicketTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		752193DD1D38EA880062CE4A /* FlightTicketTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTicketTrackingUITests.swift; sourceTree = "<group>"; };
+		752193DF1D38EA880062CE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		752193B41D38EA880062CE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752193CB1D38EA880062CE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752193D61D38EA880062CE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752193AE1D38EA880062CE4A = {
+			isa = PBXGroup;
+			children = (
+				752193B91D38EA880062CE4A /* FlightTicketTracking */,
+				752193D11D38EA880062CE4A /* FlightTicketTrackingTests */,
+				752193DC1D38EA880062CE4A /* FlightTicketTrackingUITests */,
+				752193B81D38EA880062CE4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		752193B81D38EA880062CE4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				752193B71D38EA880062CE4A /* FlightTicketTracking.app */,
+				752193CE1D38EA880062CE4A /* FlightTicketTrackingTests.xctest */,
+				752193D91D38EA880062CE4A /* FlightTicketTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		752193B91D38EA880062CE4A /* FlightTicketTracking */ = {
+			isa = PBXGroup;
+			children = (
+				752193BA1D38EA880062CE4A /* AppDelegate.swift */,
+				752193BC1D38EA880062CE4A /* ViewController.swift */,
+				752193BE1D38EA880062CE4A /* Main.storyboard */,
+				752193C41D38EA880062CE4A /* Assets.xcassets */,
+				752193C61D38EA880062CE4A /* LaunchScreen.storyboard */,
+				752193C91D38EA880062CE4A /* Info.plist */,
+				752193C11D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld */,
+			);
+			path = FlightTicketTracking;
+			sourceTree = "<group>";
+		};
+		752193D11D38EA880062CE4A /* FlightTicketTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				752193D21D38EA880062CE4A /* FlightTicketTrackingTests.swift */,
+				752193D41D38EA880062CE4A /* Info.plist */,
+			);
+			path = FlightTicketTrackingTests;
+			sourceTree = "<group>";
+		};
+		752193DC1D38EA880062CE4A /* FlightTicketTrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				752193DD1D38EA880062CE4A /* FlightTicketTrackingUITests.swift */,
+				752193DF1D38EA880062CE4A /* Info.plist */,
+			);
+			path = FlightTicketTrackingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		752193B61D38EA880062CE4A /* FlightTicketTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752193E21D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTracking" */;
+			buildPhases = (
+				752193B31D38EA880062CE4A /* Sources */,
+				752193B41D38EA880062CE4A /* Frameworks */,
+				752193B51D38EA880062CE4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightTicketTracking;
+			productName = FlightTicketTracking;
+			productReference = 752193B71D38EA880062CE4A /* FlightTicketTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		752193CD1D38EA880062CE4A /* FlightTicketTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752193E51D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingTests" */;
+			buildPhases = (
+				752193CA1D38EA880062CE4A /* Sources */,
+				752193CB1D38EA880062CE4A /* Frameworks */,
+				752193CC1D38EA880062CE4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752193D01D38EA880062CE4A /* PBXTargetDependency */,
+			);
+			name = FlightTicketTrackingTests;
+			productName = FlightTicketTrackingTests;
+			productReference = 752193CE1D38EA880062CE4A /* FlightTicketTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		752193D81D38EA880062CE4A /* FlightTicketTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752193E81D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingUITests" */;
+			buildPhases = (
+				752193D51D38EA880062CE4A /* Sources */,
+				752193D61D38EA880062CE4A /* Frameworks */,
+				752193D71D38EA880062CE4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752193DB1D38EA880062CE4A /* PBXTargetDependency */,
+			);
+			name = FlightTicketTrackingUITests;
+			productName = FlightTicketTrackingUITests;
+			productReference = 752193D91D38EA880062CE4A /* FlightTicketTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		752193AF1D38EA880062CE4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lephu;
+				TargetAttributes = {
+					752193B61D38EA880062CE4A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					752193CD1D38EA880062CE4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 752193B61D38EA880062CE4A;
+					};
+					752193D81D38EA880062CE4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 752193B61D38EA880062CE4A;
+					};
+				};
+			};
+			buildConfigurationList = 752193B21D38EA880062CE4A /* Build configuration list for PBXProject "FlightTicketTracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 752193AE1D38EA880062CE4A;
+			productRefGroup = 752193B81D38EA880062CE4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				752193B61D38EA880062CE4A /* FlightTicketTracking */,
+				752193CD1D38EA880062CE4A /* FlightTicketTrackingTests */,
+				752193D81D38EA880062CE4A /* FlightTicketTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		752193B51D38EA880062CE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752193C81D38EA880062CE4A /* LaunchScreen.storyboard in Resources */,
+				752193C51D38EA880062CE4A /* Assets.xcassets in Resources */,
+				752193C01D38EA880062CE4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752193CC1D38EA880062CE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752193D71D38EA880062CE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		752193B31D38EA880062CE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752193C31D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld in Sources */,
+				752193BD1D38EA880062CE4A /* ViewController.swift in Sources */,
+				752193BB1D38EA880062CE4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752193CA1D38EA880062CE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752193D31D38EA880062CE4A /* FlightTicketTrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752193D51D38EA880062CE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752193DE1D38EA880062CE4A /* FlightTicketTrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		752193D01D38EA880062CE4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752193B61D38EA880062CE4A /* FlightTicketTracking */;
+			targetProxy = 752193CF1D38EA880062CE4A /* PBXContainerItemProxy */;
+		};
+		752193DB1D38EA880062CE4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752193B61D38EA880062CE4A /* FlightTicketTracking */;
+			targetProxy = 752193DA1D38EA880062CE4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		752193BE1D38EA880062CE4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752193BF1D38EA880062CE4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		752193C61D38EA880062CE4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752193C71D38EA880062CE4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		752193E01D38EA880062CE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		752193E11D38EA880062CE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		752193E31D38EA880062CE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightTicketTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		752193E41D38EA880062CE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightTicketTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		752193E61D38EA880062CE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightTicketTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTicketTracking.app/FlightTicketTracking";
+			};
+			name = Debug;
+		};
+		752193E71D38EA880062CE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightTicketTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTicketTracking.app/FlightTicketTracking";
+			};
+			name = Release;
+		};
+		752193E91D38EA880062CE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlightTicketTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlightTicketTracking;
+			};
+			name = Debug;
+		};
+		752193EA1D38EA880062CE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlightTicketTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlightTicketTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		752193B21D38EA880062CE4A /* Build configuration list for PBXProject "FlightTicketTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752193E01D38EA880062CE4A /* Debug */,
+				752193E11D38EA880062CE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752193E21D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752193E31D38EA880062CE4A /* Debug */,
+				752193E41D38EA880062CE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		752193E51D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752193E61D38EA880062CE4A /* Debug */,
+				752193E71D38EA880062CE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		752193E81D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752193E91D38EA880062CE4A /* Debug */,
+				752193EA1D38EA880062CE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		752193C11D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				752193C21D38EA880062CE4A /* FlightTicketTracking.xcdatamodel */,
+			);
+			currentVersion = 752193C21D38EA880062CE4A /* FlightTicketTracking.xcdatamodel */;
+			path = FlightTicketTracking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 752193AF1D38EA880062CE4A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_FlightTicketTracking {
+  umbrella header "Pods-FlightTicketTracking-umbrella.h"
+
+  export *
+  module * { export * }
+}

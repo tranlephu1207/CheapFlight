@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13E856F6207FFE80034043A9 /* Pods_FlightTicketTrackingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BD33270B2AD4584D37BFDD /* Pods_FlightTicketTrackingTests.framework */; };
+		6BF243AE2E65AD0B2AF0333C /* Pods_FlightTicketTrackingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9827537571B5D20AC0179122 /* Pods_FlightTicketTrackingUITests.framework */; };
 		752193BB1D38EA880062CE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193BA1D38EA880062CE4A /* AppDelegate.swift */; };
-		752193BD1D38EA880062CE4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193BC1D38EA880062CE4A /* ViewController.swift */; };
+		752193BD1D38EA880062CE4A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193BC1D38EA880062CE4A /* SearchViewController.swift */; };
 		752193C01D38EA880062CE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752193BE1D38EA880062CE4A /* Main.storyboard */; };
 		752193C31D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 752193C11D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld */; };
 		752193C51D38EA880062CE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752193C41D38EA880062CE4A /* Assets.xcassets */; };
 		752193C81D38EA880062CE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752193C61D38EA880062CE4A /* LaunchScreen.storyboard */; };
 		752193D31D38EA880062CE4A /* FlightTicketTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193D21D38EA880062CE4A /* FlightTicketTrackingTests.swift */; };
 		752193DE1D38EA880062CE4A /* FlightTicketTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752193DD1D38EA880062CE4A /* FlightTicketTrackingUITests.swift */; };
+		75D31EF51D3A37EF0068C495 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D31EF41D3A37EF0068C495 /* DayCollectionViewCell.swift */; };
+		75D31EF61D3A37EF0068C495 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D31EF41D3A37EF0068C495 /* DayCollectionViewCell.swift */; };
+		75D31EF71D3A37EF0068C495 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D31EF41D3A37EF0068C495 /* DayCollectionViewCell.swift */; };
+		75D4E2141D3C9C1D0014730D /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4E2131D3C9C1D0014730D /* CommonUtils.swift */; };
+		75D4E2161D3C9E970014730D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4E2151D3C9E970014730D /* Extensions.swift */; };
+		75D4E2181D3CBC390014730D /* LocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D4E2171D3CBC390014730D /* LocalizableString.swift */; };
+		75D4E2201D3CBE690014730D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D4E2241D3CBE690014730D /* Localizable.strings */; };
+		75D4E2211D3CBE690014730D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D4E2241D3CBE690014730D /* Localizable.strings */; };
+		75D4E2221D3CBE690014730D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D4E2241D3CBE690014730D /* Localizable.strings */; };
+		87E80FA5D2C89DFDF54C2586 /* Pods_FlightTicketTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7665CBCF06880BAB180F22 /* Pods_FlightTicketTracking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19A5F5B1B78C1AE5D9910CE4 /* Pods-FlightTicketTrackingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightTicketTrackingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlightTicketTrackingUITests/Pods-FlightTicketTrackingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EDE7E5C23E9084CA470F507 /* Pods-FlightTicketTrackingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightTicketTrackingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlightTicketTrackingUITests/Pods-FlightTicketTrackingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF4D31D950F075CD1D7E1BF /* Pods-FlightTicketTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightTicketTracking.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlightTicketTracking/Pods-FlightTicketTracking.release.xcconfig"; sourceTree = "<group>"; };
+		6930CDAA12FBB7298D2C613D /* Pods-FlightTicketTrackingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightTicketTrackingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlightTicketTrackingTests/Pods-FlightTicketTrackingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E8F6F19827C62CC07CC1BEF /* Pods-FlightTicketTrackingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightTicketTrackingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlightTicketTrackingTests/Pods-FlightTicketTrackingTests.release.xcconfig"; sourceTree = "<group>"; };
 		752193B71D38EA880062CE4A /* FlightTicketTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightTicketTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752193BA1D38EA880062CE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		752193BC1D38EA880062CE4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		752193BC1D38EA880062CE4A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		752193BF1D38EA880062CE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		752193C21D38EA880062CE4A /* FlightTicketTracking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlightTicketTracking.xcdatamodel; sourceTree = "<group>"; };
 		752193C41D38EA880062CE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +66,19 @@
 		752193D91D38EA880062CE4A /* FlightTicketTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTicketTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752193DD1D38EA880062CE4A /* FlightTicketTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTicketTrackingUITests.swift; sourceTree = "<group>"; };
 		752193DF1D38EA880062CE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752193EB1D38EB1B0062CE4A /* FlightTicketTracking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlightTicketTracking-Bridging-Header.h"; sourceTree = "<group>"; };
+		75D31EF41D3A37EF0068C495 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		75D4E2131D3C9C1D0014730D /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		75D4E2151D3C9E970014730D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		75D4E2171D3CBC390014730D /* LocalizableString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableString.swift; sourceTree = "<group>"; };
+		75D4E21E1D3CBD920014730D /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		75D4E21F1D3CBD920014730D /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		75D4E2231D3CBE690014730D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75D4E2251D3CBE760014730D /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		87BD33270B2AD4584D37BFDD /* Pods_FlightTicketTrackingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightTicketTrackingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		935F62D6DE5CB4D372451033 /* Pods-FlightTicketTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightTicketTracking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlightTicketTracking/Pods-FlightTicketTracking.debug.xcconfig"; sourceTree = "<group>"; };
+		9827537571B5D20AC0179122 /* Pods_FlightTicketTrackingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightTicketTrackingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7665CBCF06880BAB180F22 /* Pods_FlightTicketTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightTicketTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E80FA5D2C89DFDF54C2586 /* Pods_FlightTicketTracking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E856F6207FFE80034043A9 /* Pods_FlightTicketTrackingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF243AE2E65AD0B2AF0333C /* Pods_FlightTicketTrackingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E897F15D5AE9C7E72A5234D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB7665CBCF06880BAB180F22 /* Pods_FlightTicketTracking.framework */,
+				87BD33270B2AD4584D37BFDD /* Pods_FlightTicketTrackingTests.framework */,
+				9827537571B5D20AC0179122 /* Pods_FlightTicketTrackingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		387C7B885229DC90F2772B02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				935F62D6DE5CB4D372451033 /* Pods-FlightTicketTracking.debug.xcconfig */,
+				5BF4D31D950F075CD1D7E1BF /* Pods-FlightTicketTracking.release.xcconfig */,
+				6930CDAA12FBB7298D2C613D /* Pods-FlightTicketTrackingTests.debug.xcconfig */,
+				6E8F6F19827C62CC07CC1BEF /* Pods-FlightTicketTrackingTests.release.xcconfig */,
+				3EDE7E5C23E9084CA470F507 /* Pods-FlightTicketTrackingUITests.debug.xcconfig */,
+				19A5F5B1B78C1AE5D9910CE4 /* Pods-FlightTicketTrackingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		752193AE1D38EA880062CE4A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				752193D11D38EA880062CE4A /* FlightTicketTrackingTests */,
 				752193DC1D38EA880062CE4A /* FlightTicketTrackingUITests */,
 				752193B81D38EA880062CE4A /* Products */,
+				387C7B885229DC90F2772B02 /* Pods */,
+				2E897F15D5AE9C7E72A5234D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +157,13 @@
 		752193B91D38EA880062CE4A /* FlightTicketTracking */ = {
 			isa = PBXGroup;
 			children = (
-				752193BA1D38EA880062CE4A /* AppDelegate.swift */,
-				752193BC1D38EA880062CE4A /* ViewController.swift */,
-				752193BE1D38EA880062CE4A /* Main.storyboard */,
-				752193C41D38EA880062CE4A /* Assets.xcassets */,
-				752193C61D38EA880062CE4A /* LaunchScreen.storyboard */,
-				752193C91D38EA880062CE4A /* Info.plist */,
+				75D4E2121D3C9C050014730D /* Extensions */,
+				75D4E20F1D3C8BC30014730D /* Supporting Files */,
+				75D31EF31D3A37C70068C495 /* Views */,
+				75D4E2111D3C8C360014730D /* Controllers */,
+				75D4E2101D3C8C070014730D /* Storyboards & Assets */,
 				752193C11D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld */,
+				75D4E2191D3CBC4F0014730D /* Localizations */,
 			);
 			path = FlightTicketTracking;
 			sourceTree = "<group>";
@@ -128,6 +186,60 @@
 			path = FlightTicketTrackingUITests;
 			sourceTree = "<group>";
 		};
+		75D31EF31D3A37C70068C495 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75D31EF41D3A37EF0068C495 /* DayCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		75D4E20F1D3C8BC30014730D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				752193BA1D38EA880062CE4A /* AppDelegate.swift */,
+				752193C91D38EA880062CE4A /* Info.plist */,
+				752193EB1D38EB1B0062CE4A /* FlightTicketTracking-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D4E2101D3C8C070014730D /* Storyboards & Assets */ = {
+			isa = PBXGroup;
+			children = (
+				752193BE1D38EA880062CE4A /* Main.storyboard */,
+				752193C41D38EA880062CE4A /* Assets.xcassets */,
+				752193C61D38EA880062CE4A /* LaunchScreen.storyboard */,
+			);
+			name = "Storyboards & Assets";
+			sourceTree = "<group>";
+		};
+		75D4E2111D3C8C360014730D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				752193BC1D38EA880062CE4A /* SearchViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		75D4E2121D3C9C050014730D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75D4E2131D3C9C1D0014730D /* CommonUtils.swift */,
+				75D4E2151D3C9E970014730D /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		75D4E2191D3CBC4F0014730D /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				75D4E2171D3CBC390014730D /* LocalizableString.swift */,
+				75D4E2241D3CBE690014730D /* Localizable.strings */,
+			);
+			name = Localizations;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 752193E21D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTracking" */;
 			buildPhases = (
+				29C2CFEA2B1E563F7947CD58 /* 📦 Check Pods Manifest.lock */,
 				752193B31D38EA880062CE4A /* Sources */,
 				752193B41D38EA880062CE4A /* Frameworks */,
 				752193B51D38EA880062CE4A /* Resources */,
+				E1DE233A82C7C9A0715FF6BA /* 📦 Embed Pods Frameworks */,
+				3FF01C4799CF6A23A25CE1EB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 752193E51D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingTests" */;
 			buildPhases = (
+				34F907278F51E4826782FEBE /* 📦 Check Pods Manifest.lock */,
 				752193CA1D38EA880062CE4A /* Sources */,
 				752193CB1D38EA880062CE4A /* Frameworks */,
 				752193CC1D38EA880062CE4A /* Resources */,
+				171E44AEDF7519BB83D41D55 /* 📦 Embed Pods Frameworks */,
+				8B9786A371CEB7E0EE5B3263 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 752193E81D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingUITests" */;
 			buildPhases = (
+				1E32A63EE0EA0B633D36F194 /* 📦 Check Pods Manifest.lock */,
 				752193D51D38EA880062CE4A /* Sources */,
 				752193D61D38EA880062CE4A /* Frameworks */,
 				752193D71D38EA880062CE4A /* Resources */,
+				219E902D4A11FDDF51F0D305 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +334,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 752193AE1D38EA880062CE4A;
 			productRefGroup = 752193B81D38EA880062CE4A /* Products */;
@@ -232,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D4E2201D3CBE690014730D /* Localizable.strings in Resources */,
 				752193C81D38EA880062CE4A /* LaunchScreen.storyboard in Resources */,
 				752193C51D38EA880062CE4A /* Assets.xcassets in Resources */,
 				752193C01D38EA880062CE4A /* Main.storyboard in Resources */,
@@ -242,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D4E2211D3CBE690014730D /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +372,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D4E2221D3CBE690014730D /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171E44AEDF7519BB83D41D55 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlightTicketTrackingTests/Pods-FlightTicketTrackingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E32A63EE0EA0B633D36F194 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		219E902D4A11FDDF51F0D305 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlightTicketTrackingUITests/Pods-FlightTicketTrackingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C2CFEA2B1E563F7947CD58 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34F907278F51E4826782FEBE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF01C4799CF6A23A25CE1EB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlightTicketTracking/Pods-FlightTicketTracking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9786A371CEB7E0EE5B3263 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlightTicketTrackingTests/Pods-FlightTicketTrackingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1DE233A82C7C9A0715FF6BA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlightTicketTracking/Pods-FlightTicketTracking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		752193B31D38EA880062CE4A /* Sources */ = {
@@ -260,8 +507,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				752193C31D38EA880062CE4A /* FlightTicketTracking.xcdatamodeld in Sources */,
-				752193BD1D38EA880062CE4A /* ViewController.swift in Sources */,
+				75D4E2161D3C9E970014730D /* Extensions.swift in Sources */,
+				75D4E2181D3CBC390014730D /* LocalizableString.swift in Sources */,
+				75D4E2141D3C9C1D0014730D /* CommonUtils.swift in Sources */,
+				752193BD1D38EA880062CE4A /* SearchViewController.swift in Sources */,
 				752193BB1D38EA880062CE4A /* AppDelegate.swift in Sources */,
+				75D31EF51D3A37EF0068C495 /* DayCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				752193D31D38EA880062CE4A /* FlightTicketTrackingTests.swift in Sources */,
+				75D31EF61D3A37EF0068C495 /* DayCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				752193DE1D38EA880062CE4A /* FlightTicketTrackingUITests.swift in Sources */,
+				75D31EF71D3A37EF0068C495 /* DayCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +554,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				752193BF1D38EA880062CE4A /* Base */,
+				75D4E21E1D3CBD920014730D /* vi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,8 +563,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				752193C71D38EA880062CE4A /* Base */,
+				75D4E21F1D3CBD920014730D /* vi */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		75D4E2241D3CBE690014730D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D4E2231D3CBE690014730D /* en */,
+				75D4E2251D3CBE760014730D /* vi */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,28 +667,38 @@
 		};
 		752193E31D38EA880062CE4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935F62D6DE5CB4D372451033 /* Pods-FlightTicketTracking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlightTicketTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlightTicketTracking/FlightTicketTracking-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		752193E41D38EA880062CE4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF4D31D950F075CD1D7E1BF /* Pods-FlightTicketTracking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlightTicketTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lephu.FlightTicketTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlightTicketTracking/FlightTicketTracking-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		752193E61D38EA880062CE4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6930CDAA12FBB7298D2C613D /* Pods-FlightTicketTrackingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FlightTicketTrackingTests/Info.plist;
@@ -437,6 +711,7 @@
 		};
 		752193E71D38EA880062CE4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8F6F19827C62CC07CC1BEF /* Pods-FlightTicketTrackingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FlightTicketTrackingTests/Info.plist;
@@ -449,6 +724,7 @@
 		};
 		752193E91D38EA880062CE4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDE7E5C23E9084CA470F507 /* Pods-FlightTicketTrackingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FlightTicketTrackingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +736,7 @@
 		};
 		752193EA1D38EA880062CE4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A5F5B1B78C1AE5D9910CE4 /* Pods-FlightTicketTrackingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FlightTicketTrackingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +765,7 @@
 				752193E41D38EA880062CE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		752193E51D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +774,7 @@
 				752193E71D38EA880062CE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		752193E81D38EA880062CE4A /* Build configuration list for PBXNativeTarget "FlightTicketTrackingUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +783,7 @@
 				752193EA1D38EA880062CE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
